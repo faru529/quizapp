@@ -15,7 +15,7 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   final _questions = const <Map<String?, Object>>[
     {
-      'quexText': 'What\'s your fav color?',
+      'quexText': 'What\'s your favorite color?',
       'answers': [
         {'text': 'Black', 'score': 7},
         {'text': 'Red', 'score': 10},
@@ -24,7 +24,7 @@ class _MyAppState extends State<MyApp> {
       ],
     },
     {
-      'quexText': 'What\'s your fav animal?',
+      'quexText': 'What\'s your favorite animal?',
       'answers': [
         {'text': 'Bear', 'score': 7},
         {'text': 'Cat', 'score': 1},
@@ -36,9 +36,9 @@ class _MyAppState extends State<MyApp> {
       'quexText': 'Who\'s your fav artist?',
       'answers': [
         {'text': 'BTS', 'score': 2},
-        {'text': 'BTS', 'score': 2},
-        {'text': 'BTS', 'score': 2},
-        {'text': 'BTS', 'score': 2},
+        {'text': 'Justin Beiber', 'score': 7},
+        {'text': 'Armaan Malik', 'score': 5},
+        {'text': 'Coldplay', 'score': 6},
       ],
     },
   ];
